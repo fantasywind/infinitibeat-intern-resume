@@ -1,0 +1,19 @@
+<a href='#/' class='btn btn-default'>
+  <span class='glyphicon glyphicon-chevron-left'></span> 返回
+</a>
+<table class='table table-condensed'>
+  <tbody>
+    <tr>
+      <th>姓名</th>
+      <td ng-bind='member.name'></td>
+    </tr>
+    <tr>
+      <th>信箱</th>
+      <td ng-bind='member.email'></td>
+    </tr>
+    <tr>
+      <th>性別</th>
+      <td ng-bind='member.gender === 1 ? "男" : "女"'></td>
+    </tr>
+  </tbody>
+</table>
